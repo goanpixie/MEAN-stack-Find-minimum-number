@@ -27,7 +27,7 @@ Bike.makeNoise()
 var Bus = VehicleConstructor("HopOn", 8, 100);
 console.log(Bus);
 Bus.add_passengers= function(number){
-console.log(number_of_passengers=+number);
+console.log(Bus.number_of_passengers=+number);
 
 }
 
